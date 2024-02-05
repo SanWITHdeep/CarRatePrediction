@@ -18,7 +18,19 @@ jobs:
           python-version: 3.9
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip install sckit-learn
+
+      - name: Install jsonify
+        run: pip install jsonify
+
+      - name: Install dependencies
+        run: pip install flask
+
+      - name: Install dependencies
+        run: pip install numpy
+
+      - name: Install dependencies
+        run: pip install pickle
 
       - name: Run Python script
         run: python main.py
