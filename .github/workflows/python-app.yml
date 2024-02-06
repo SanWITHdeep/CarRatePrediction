@@ -21,7 +21,7 @@ jobs:
         run: pip install --upgrade pip
 
       - name: Install dependencies
-        run: pip install scikit-learn
+        run: pip install scikit-learn==1.0.2
 
       - name: Install jsonify
         run: pip install jsonify
